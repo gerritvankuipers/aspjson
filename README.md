@@ -143,3 +143,27 @@ End With
 
 Response.Write oJSON.JSONoutput()                   'Return json string
 ```
+
+
+## Changelog
+
+### Version 1.18 August 2020
+* Decimal output comma/dot fix
+
+### Version 1.17 Februari 2014
+* Efficiency improvement large data
+
+### Version 1.15 Februari 2014
+* Trailing tabs fixed
+
+### Version 1.14 Februari 2014
+* Colon value within string bug fixed
+
+### Version 1.13 December 2013
+* Encoded data fix
+* Now possible to load directly from a URL. For example: oJSON.loadJSON("http://www.aspjson.com/jsonstream.asp")
+
+### Version 1.12 June 2013
+* vbCrLf fix
+* Compatible with Option Explicit
+* JSON escape characters
