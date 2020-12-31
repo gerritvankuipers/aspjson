@@ -1,5 +1,5 @@
 <%
-'Februari 2014 - Version 1.17 by Gerrit van Kuipers
+'August 2020 - Version 1.17 by Gerrit van Kuipers
 Class aspJSON
 	Public data
 	Private p_JSONstring
@@ -28,7 +28,7 @@ Class aspJSON
 			case "{", "["
 			case else
 				Set aj_XmlHttp = Server.CreateObject("Msxml2.ServerXMLHTTP")
-				aj_XmlHttp.open "GET", inputsource, False
+				aj_XmlHttp.open "POST", inputsource, False
 				aj_XmlHttp.setRequestHeader "Content-Type", "text/json"
 				aj_XmlHttp.setRequestHeader "CharSet", "UTF-8"
 				aj_XmlHttp.Send
