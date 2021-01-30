@@ -44,6 +44,8 @@ oJSON.loadJSON(jsonstring)
 'Get single value
 Response.Write oJSON.data("firstName") & "<br>"
 
+Response.Write oJSON.data("address").item("streetAddress") & "<br>"
+
 'Loop through collection
 For Each phonenr In oJSON.data("phoneNumbers")
     Set this = oJSON.data("phoneNumbers").item(phonenr)
