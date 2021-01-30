@@ -43,7 +43,6 @@ oJSON.loadJSON(jsonstring)
 
 'Get single value
 Response.Write oJSON.data("firstName") & "<br>"
-
 Response.Write oJSON.data("address").item("streetAddress") & "<br>"
 
 'Loop through collection
