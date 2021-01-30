@@ -148,6 +148,9 @@ Response.Write oJSON.JSONoutput()                   'Return json string
 
 ## Changelog
 
+### Version 1.19 January 2021
+* Fix for local decimal format settings when parsing json string
+
 ### Version 1.18 August 2020
 * Decimal output comma/dot fix
 
