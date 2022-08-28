@@ -1,5 +1,5 @@
 <%
-'January 2021 - Version 1.1 by Gerrit van Kuipers
+'January 2021 - Version 1.19 by Gerrit van Kuipers
 Class aspJSON
 	Public data
 	Private p_JSONstring
