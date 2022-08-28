@@ -260,6 +260,7 @@ Class aspJSON
 	End Function
 
 	Private Function aj_ReadNumericValue(ByVal val)
+		Dim numdecimals
 		If Instr(val, ".") > 0 Then
 			numdecimals = Len(val) - Instr(val, ".")
 			val = Clng(Replace(val, ".", ""))
